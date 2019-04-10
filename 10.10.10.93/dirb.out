@@ -1,0 +1,29 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb.out
+START_TIME: Wed Apr 10 16:35:19 2019
+URL_BASE: http://10.10.10.93/
+WORDLIST_FILES: /usr/share/wordlists/dirb/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.10.93/ ----
+==> DIRECTORY: http://10.10.10.93/aspnet_client/
+==> DIRECTORY: http://10.10.10.93/uploadedfiles/
+
+---- Entering directory: http://10.10.10.93/aspnet_client/ ----
+==> DIRECTORY: http://10.10.10.93/aspnet_client/system_web/
+
+---- Entering directory: http://10.10.10.93/uploadedfiles/ ----
+
+---- Entering directory: http://10.10.10.93/aspnet_client/system_web/ ----
+
+-----------------
+END_TIME: Wed Apr 10 16:51:59 2019
+DOWNLOADED: 18448 - FOUND: 0

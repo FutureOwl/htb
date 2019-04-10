@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Mon Apr  8 17:09:47 2019 as: nmap -e tun0 -&#45;stats-every 4s -Pn -sV -&#45;version-intensity 5 -p 1-65535 -vvv -O -T4 -A -oA 10.10.10.8_nmap_AllInfo -iL 10.10.10.8_hosts_Up.txt -->
+<nmaprun scanner="nmap" args="nmap -e tun0 -&#45;stats-every 4s -Pn -sV -&#45;version-intensity 5 -p 1-65535 -vvv -O -T4 -A -oA 10.10.10.8_nmap_AllInfo -iL 10.10.10.8_hosts_Up.txt" start="1554757787" startstr="Mon Apr  8 17:09:47 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="3"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1554757788"/>
+<taskend task="NSE" time="1554757788"/>
+<taskbegin task="NSE" time="1554757788"/>
+<taskend task="NSE" time="1554757788"/>
+<taskbegin task="NSE" time="1554757869"/>
+<taskend task="NSE" time="1554757869"/>
+<taskbegin task="NSE" time="1554757869"/>
+<taskend task="NSE" time="1554757869"/>
+<runstats><finished time="1554757869" timestr="Mon Apr  8 17:11:09 2019" elapsed="81.69" summary="Nmap done at Mon Apr  8 17:11:09 2019; 0 IP addresses (0 hosts up) scanned in 81.69 seconds" exit="success"/><hosts up="0" down="0" total="0"/>
+</runstats>
+</nmaprun>

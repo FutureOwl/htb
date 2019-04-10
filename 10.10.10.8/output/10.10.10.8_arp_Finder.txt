@@ -1,0 +1,1 @@
+ERROR: Could not obtain MAC address for interface tun0

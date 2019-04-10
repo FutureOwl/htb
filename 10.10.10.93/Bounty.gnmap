@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Wed Apr 10 16:32:53 2019 as: nmap -sC -sV -oA Bounty 10.10.10.93
+Host: 10.10.10.93 ()	Status: Up
+Host: 10.10.10.93 ()	Ports: 80/open/tcp//tcpwrapped///	Ignored State: filtered (999)
+# Nmap done at Wed Apr 10 16:33:26 2019 -- 1 IP address (1 host up) scanned in 32.79 seconds

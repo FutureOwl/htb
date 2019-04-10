@@ -1,0 +1,35 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb2.out
+START_TIME: Tue Apr  9 16:33:13 2019
+URL_BASE: http://cronos.htb/
+WORDLIST_FILES: /usr/share/wordlists/dirb/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: http://cronos.htb/ ----
+==> DIRECTORY: http://cronos.htb/css/
++ http://cronos.htb/favicon.ico (CODE:200|SIZE:0)
++ http://cronos.htb/index.php (CODE:200|SIZE:2319)
+==> DIRECTORY: http://cronos.htb/js/
++ http://cronos.htb/robots.txt (CODE:200|SIZE:24)
++ http://cronos.htb/server-status (CODE:403|SIZE:298)
++ http://cronos.htb/web.config (CODE:200|SIZE:914)
+
+---- Entering directory: http://cronos.htb/css/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+---- Entering directory: http://cronos.htb/js/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.
+    (Use mode '-w' if you want to scan it anyway)
+
+-----------------
+END_TIME: Tue Apr  9 16:36:47 2019
+DOWNLOADED: 4612 - FOUND: 5

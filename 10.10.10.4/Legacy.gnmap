@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Mon Apr  8 16:47:54 2019 as: nmap -sC -sV -oA Legacy 10.10.10.4
+Host: 10.10.10.4 ()	Status: Up
+Host: 10.10.10.4 ()	Status: Up
+# Nmap done at Mon Apr  8 16:48:39 2019 -- 1 IP address (1 host up) scanned in 45.15 seconds

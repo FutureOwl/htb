@@ -1,0 +1,5 @@
+# Nmap 7.70 scan initiated Tue Apr  9 16:16:50 2019 as: nmap -e tun0 --stats-every 4s -Pn -sV --version-intensity 0 -p 1-65535 -vvv -O -T4 -A -oA 10.10.10.13_nmap_AllInfo -iL 10.10.10.13_hosts_Up.txt
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.13 ()	Status: Up
+Host: 10.10.10.13 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.2p2 Ubuntu 4ubuntu2.1 (Ubuntu Linux; protocol 2.0)/, 53/open/tcp//domain//ISC BIND 9.10.3-P4 (Ubuntu Linux)/, 80/open/tcp//http//Apache httpd 2.4.18 ((Ubuntu))/	Ignored State: filtered (65532)	Seq Index: 260	IP ID Seq: All zeros
+# Nmap done at Tue Apr  9 16:19:10 2019 -- 1 IP address (1 host up) scanned in 140.24 seconds

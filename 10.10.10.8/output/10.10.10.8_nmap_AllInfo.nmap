@@ -1,0 +1,13 @@
+# Nmap 7.70 scan initiated Mon Apr  8 17:09:47 2019 as: nmap -e tun0 --stats-every 4s -Pn -sV --version-intensity 5 -p 1-65535 -vvv -O -T4 -A -oA 10.10.10.8_nmap_AllInfo -iL 10.10.10.8_hosts_Up.txt
+Failed to resolve "ERROR:".
+Failed to resolve "Could".
+Failed to resolve "not".
+Failed to resolve "obtain".
+Failed to resolve "MAC".
+Failed to resolve "address".
+Failed to resolve "for".
+Failed to resolve "interface".
+Failed to resolve "tun0".
+Read data files from: /usr/bin/../share/nmap
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Mon Apr  8 17:11:09 2019 -- 0 IP addresses (0 hosts up) scanned in 81.69 seconds

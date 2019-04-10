@@ -1,0 +1,5 @@
+# Nmap 7.70 scan initiated Wed Apr 10 16:56:45 2019 as: nmap -e tun0 --stats-every 4s -Pn -sV --version-intensity 0 -p 1-65535 -vvv -O -T4 -A -oA 10.10.10.93_nmap_AllInfo -iL 10.10.10.93_hosts_Up.txt
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.93 ()	Status: Up
+Host: 10.10.10.93 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 7.5/	Ignored State: filtered (65534)	Seq Index: 263	IP ID Seq: Incremental
+# Nmap done at Wed Apr 10 16:59:02 2019 -- 1 IP address (1 host up) scanned in 138.16 seconds
